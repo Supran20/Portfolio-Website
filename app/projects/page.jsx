@@ -21,7 +21,7 @@ const projects = [
     category: "AI/ML",
     title: "Virtual Lens Try on with Dynamic Price Optimization",
     description:
-      "For my major project, I developed an eyewear website using the MERN stack. The platform features a comprehensive admin panel for managing inventory and user data, as well as a robust user registration and login system to ensure secure and seamless access for customers.",
+      "For my major project, I developed an eyewear website using MERN stack that includes a secure user authentication system and an admin panel for managing inventory and user data. The platform also features a face shape classification system using Haar Cascade for face detection and a Swin Transformer model for accurate face shape recognition, enabling personalized eyewear recommendations.",
     stack: [
       { name: "MERN" },
       { name: "Python" },
@@ -51,7 +51,7 @@ const projects = [
     description:
       "Developed a movie website using a public API to fetch and display movie data. Gained hands-on experience with React fundamentals, including components, state management, and React Hooks. Implemented custom hooks to handle data fetching and reusable logic, enhancing code modularity and maintainability. This project deepened my understanding of how React renders UI and manages dynamic content efficiently.",
     stack: [{ name: "React" }],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/movie-app.mp4",
     live: "",
     github: "https://github.com/Supran20/React-Movie-Website",
   },
@@ -67,7 +67,7 @@ const projects = [
       { name: "NumPy" },
       { name: "tensorflow" },
     ],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/Stock.mp4",
     live: "",
     github: "https://github.com/Supran20/Stock-Market-Price-Predictor",
   },
@@ -84,7 +84,7 @@ const projects = [
       { name: "tensorflow" },
       { name: "NumPy" },
     ],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/Churn.mp4",
     live: "",
     github: "https://github.com/Supran20/Customer-Churn-Predictor",
   },
@@ -100,7 +100,7 @@ const projects = [
       { name: "scikit-learn" },
       { name: "NumPy" },
     ],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/food_time.mp4",
     live: "",
     github: "https://github.com/Supran20/Food-Delivery-Time-Prediction",
   },
@@ -111,7 +111,7 @@ const projects = [
     description:
       "I'm skilled in video editing with DaVinci Resolve, focusing on cuts, subtitles, and keyframing. I've edited professional-quality content for several YouTube channels.",
     stack: [{ name: "DaVinci Resolve" }],
-    image: "/assets/work/thumb1.png",
+    image: "Transition_Foods.mp4",
     live: "https://drive.google.com/drive/folders/1R532qOBF6dDi2KNERUKwf2uiF6qBRMBJ",
     github:
       "https://drive.google.com/drive/folders/1R532qOBF6dDi2KNERUKwf2uiF6qBRMBJ",
