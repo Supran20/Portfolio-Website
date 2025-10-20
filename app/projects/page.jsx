@@ -29,8 +29,8 @@ const projects = [
       { name: "OpenCv" },
       { name: "NumPy" },
     ],
-    image: "/assets/work/thumb1.png",
-    live: "",
+    image: "/assets/work/tryon.mp4",
+    live: "https://drive.google.com/file/d/1IooUy7EBf8mbaoByMZmfYPSjFLZVH-yo/view?usp=sharing",
     github: "https://github.com/Supran20/Major-Project",
   },
   {
@@ -40,7 +40,7 @@ const projects = [
     description:
       "The Bill Splitter app, built using Django and Next.js, simplifies shared expenses by tracking who paid and who owes. Users can split costs equally or unevenly, add notes, and view balances. Ideal for trips, outings, or shared living, it ensures fairness, transparency, and hassle-free group settlements.",
     stack: [{ name: "Django" }, { name: "NextJs" }],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/BillSplit.mp4",
     live: "",
     github: "https://github.com/Supran20/Bill-Splitter-App",
   },
@@ -260,12 +260,23 @@ const Projects = () => {
 
                     {/* Image */}
                     <div className="relative w-full h-full">
-                      <Image
-                        src={project.image}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-700"
-                        alt={project.title}
-                      />
+                      {project.image.endsWith(".mp4") ? (
+                        <video
+                          src={project.image}
+                          className="object-cover w-full h-full rounded-2xl"
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                        />
+                      ) : (
+                        <Image
+                          src={project.image}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-700"
+                          alt={project.title}
+                        />
+                      )}
                     </div>
                   </motion.div>
                 </SwiperSlide>
