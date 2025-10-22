@@ -111,7 +111,7 @@ const projects = [
     description:
       "I'm skilled in video editing with DaVinci Resolve, focusing on cuts, subtitles, and keyframing. I've edited professional-quality content for several YouTube channels.",
     stack: [{ name: "DaVinci Resolve" }],
-    image: "Transition_Foods.mp4",
+    image: "Transition_Food.mp4",
     live: "https://drive.google.com/drive/folders/1R532qOBF6dDi2KNERUKwf2uiF6qBRMBJ",
     github:
       "https://drive.google.com/drive/folders/1R532qOBF6dDi2KNERUKwf2uiF6qBRMBJ",
