@@ -263,7 +263,7 @@ const Projects = () => {
                       {project.image.endsWith(".mp4") ? (
                         <video
                           src={project.image}
-                          className="object-cover w-full h-full rounded-2xl"
+                          className="object-cover w-full h-full rounded-2xl "
                           autoPlay
                           loop
                           muted
@@ -284,8 +284,8 @@ const Projects = () => {
 
               {/* Slider buttons */}
               <WorkSliderBtns
-                containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
-                btnStyles="bg-emerald-400 hover:bg-emerald-500 text-black text-[22px] w-[44px] h-[44px] rounded-full flex justify-center items-center transition-all shadow-lg hover:shadow-emerald-400/50"
+                containerStyles="flex gap-6 absolute inset-0 z-30 w-full justify-between items-center px-6 pointer-events-none"
+                btnStyles="pointer-events-auto bg-emerald-400/90 hover:bg-emerald-500 text-black text-[26px] w-[56px] h-[56px] rounded-full flex justify-center items-center transition-all duration-300 shadow-xl hover:scale-110 hover:shadow-emerald-400/50"
               />
             </Swiper>
           </div>
